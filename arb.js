@@ -1,4 +1,4 @@
-$.getJSON("https://raw.githubusercontent.com/quantumalchemy/testdata/main/api.the-odds-api.com.json", function(data) {
+$.getJSON("https://raw.githubusercontent.com/quantumalchemy/testdata/main/test.json", function(data) {
   // Loop through each event in the JSON data
   for (var i = 0; i < data.length; i++) {
     var event = data[i];
